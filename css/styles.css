@@ -1,0 +1,6 @@
+.background-transparent
+{
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}

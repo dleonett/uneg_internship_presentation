@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>reveal.js - The HTML Presentation Framework</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section>
+            <img class="background-transparent" style="border:none; width:auto; height: 100px; margin-right: 50px" src="images/logo_centrove_2.png">
+            <img class="background-transparent" style="border:none; width:auto; height: 100px" src="images/logo_uneg.png">
+            <h3>DESARROLLO DEL MÓDULO WEB DE NÓMINA, INGRESOS Y EGRESOS PARA LA EMPRESA CENTROVENEZOLANO C.A.</h3>
+            <p>
+                <small>Autor: Tlgo. Leonett Daniel</small>
+            </p>
+        </section>
+
+        <section  data-background-transition="slide" data-transition="linear">
+            <img class="background-transparent" style="border:none; height: 100px" src="images/logo_centrove_2.png">
+            <h3>¿Qué es CentroVenezolano C.A.?</h3>
+        </section>
+
+        <section>
+            <h2>SITUACIÓN PROBLEMA</h2>
+            <ul>
+                <li>Proceso de nómina y registro de los ingresos y egresos en hojas de cálculo.</li>
+                <li>Hojas de cálculo genéricas.</li>
+                <li>Mayor automatización de la información.</li>
+                <li>Permitir la centralización y disponibilidad de la información de forma remota.</li>
+            </ul>
+        </section>
+
+        <section>
+            <section>
+                <h2>OBJETIVOS</h2>
+            </section>
+            <section>
+                <h2>OBJETIVO GENERAL</h2>
+                <p>
+                    Desarrollar el módulo web de nómina, ingresos y egresos para la empresa Centrovenezolano C.A.
+                </p>
+            </section>
+            <section>
+                <h2>OBJETIVOS ESPECÍFICOS</h2>
+                <ol>
+                    <li>Evaluar los requerimientos del módulo de nómina, ingresos y egresos.</li>
+                    <li>Diseñar el módulo de nómina, ingresos y egresos.</li>
+                    <li>Desarrollar las funcionalidades del módulo de nómina, ingresos y egresos.</li>
+                    <li>Realizar pruebas de funcionamiento para el módulo propuesto.</li>
+                    <li>Implantar el módulo propuesto en la empresa.</li>
+                </ol>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>MÉTODOS, TÉCNICAS Y/O PROCEDIMIENTOS APLICADOS</h2>
+            </section>
+            <section>
+                <img class="background-transparent" style="border:none; width: 200px" src="images/views/xp.png">
+                <h3>Programación extrema (XP)</h3>
+                <ul>
+                    <li>Cambios durante el desarrollo.</li>
+                    <li>Iteraciones.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Valores de XP</h3>
+                <ul>
+                    <li>Desarrollo iterativo e incremental.</li>
+                    <li>Pruebas unitarias continuas.</li>
+                    <li>Programación en parejas.</li>
+                    <li>Integración del equipo de programación con el cliente.</li>
+                    <li>Simplicidad en el código.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Roles de XP</h3>
+                <ul>
+                    <li>Programador</li>
+                    <li>Cliente</li>
+                    <li>Tester</li>
+                    <li>Tracker</li>
+                    <li>Entrenador</li>
+                    <li>Consultor</li>
+                    <li>Gestor</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Ciclo de vida de XP</h3>
+                <ul>
+                    <li>Fase I: Exploración</li>
+                    <li>Fase II: Planificación de la entrega</li>
+                    <li>Fase III: Iteraciones</li>
+                    <li>Fase IV: Producción</li>
+                    <li>Fase V: Mantenimiento</li>
+                    <li>Fase VI: Muerte del proyecto</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Implementación de XP</h2>
+            </section>
+            <section>
+                <h3>Roles</h3>
+                <ul>
+                    <li>Programador: <strong>Pasante</strong></li>
+                    <li>Cliente: <strong>Personal directivo y administrativo</strong></li>
+                    <li>Tester: <strong>Gerente de sistemas y vicepresidente de Centrovenezolano C.A.</strong></li>
+                    <li>Entrenador y Tracker: <strong>Gerente de sistemas</strong></li>
+                    <li>Consultor: <strong>Analistas de sistemas</strong></li>
+                    <li>Gestor: <strong>Vicepresidente</strong></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Ciclo de vida</h3>
+            </section>
+            <section>
+                <h5>Ciclo de vida</h5>
+                <h3>Fase I: Exploración</h3>
+                <ul>
+                    <li>Calcular el pago de nómina por mes por empleado.</li>
+                    <li>Calcular el pago de cesta ticket.</li>
+                    <li>Calcular el pago de utilidades.</li>
+                    <li>Calcular el pago de vacaciones.</li>
+                    <li>Buscar pagos por empleados y por fechas.</li>
+                    <li>Generar reporte de listado de nómina.</li>
+                    <li>Registrar conciliación bancaria.</li>
+                    <li>Registrar ingresos y egresos.</li>
+                    <li>Registrar pago de caja chica.</li>
+                    <li>Generar reporte de ingresos y egresos.</li>
+                </ul>
+            </section>
+            <section>
+                <h5>Ciclo de vida</h5>
+                <h3>Fase I: Exploración</h3>
+                <h3>Arquitectura</h3>
+            </section>
+            <section>
+                <h5>Ciclo de vida</h5>
+                <h3>Fase II: Planificación</h3>
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story1.png">
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story2.png">
+            </section>
+            <section>
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story3.png">
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story4.png">
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story5.png">
+            </section>
+            <section>
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story6.png">
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story7.png">
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story8.png">
+            </section>
+            <section>
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story9.png">
+                <img class="background-transparent" style="border:none; height: 180px" src="images/user_stories/story10.png">
+            </section>
+        </section>
+
+        <section>
+            <h2>Resultados obtenidos</h2>
+        </section>
+
+        <section>
+            <h2>Facilidades</h2>
+            <ul>
+                <li>Desarrollo de la interfaz de usuario gracias al uso de una plantilla web con componentes predefinidos.</li>
+                <li>Conocimiento del framework Javascript AngularJS.</li>
+                <li>Buena comunicación con el tutor industrial y el tutor académico.</li>
+                <li>Entusiasmo para el aprendizaje de nuevas técnicas y tendencias de programación.</li>
+            </ul>
+            <h2>Dificultades</h2>
+            <ul>
+                <li>Inicialmente el desconocimiento del framework Javascript Sails.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Aportes</h2>
+            <ul>
+                <li>Desarrollo del módulo de nómina, ingresos y egresos para CentroVenezolano C.A.</li>
+                <li>Introducción del framework AngularJS en la organización para futuros desarrollos.</li>
+                <li>Introducción de metodologías ágiles para el desarrollo de sistemas.</li>
+                <li>Propiciar una mayor integración del usuario final en el proceso de la construcción del sistema.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conocimientos adquiridos</h2>
+            <ul>
+                <li>Beneficios de las metodologías de desarrollo ágil como XP.</li>
+                <li>Beneficios del uso de frameworks para el desarrollo de sistemas.</li>
+                <li>Conceptos del patrón MVC en los frameworks de desarrollo.</li>
+                <li>Dominio del framework Bootstrap 3.</li>
+                <li>Autenticación de usuarios a través de tokens.</li>
+                <li>Dominio del framework AngularJS.</li>
+                <li>Manejo básico del framework Sails.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conclusiones</h2>
+            <ul>
+                <li>Se llevó a cabo el diseño, codificación del sistema y el modelado de la base de datos, a través de diagramas y modelos con los que se realizó la propuesta del sistema.</li>
+                <li>Se utilizó el modelo de base de datos del sistema para desarrollar la aplicación web.</li>
+                <li>Se realizaron pruebas a nivel de funcionalidad con los usuarios.</li>
+                <li>El uso de metodologías ágiles como XP es de gran ayuda para el proceso de desarrollo de software cuando no se tienen bien definidos todos los requerimientos.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Recomendaciones</h2>
+            <ul>
+                <li>Utilizar metodologías de desarrollo ágil para el desarrollo de proyectos futuros.</li>
+                <li>Utilizar plantillas web ya que agilizan enormemente la fase de desarrollo del frontend de los sistemas.</li>
+                <li>Propiciar el uso de Javascript como lenguaje de servidor para futuros desarrollos, así como el uso del patrón MVC para la estructuración de los mismos.</li>
+                <li>Utilizar AngularJS como framework frontend para la creación de aplicaciones web “clientes”.</li>
+            </ul>
+        </section>
+
+        <section style="text-align: left;" data-transition="concave">
+            <h1>Gracias por su atención</h1>
+        </section>
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true },
+            { src: 'plugin/notes/notes.js', async: true }
+        ]
+    });
+
+</script>
+
+</body>
+</html>
